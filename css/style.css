@@ -43,7 +43,7 @@ body{
     border-radius: 5px;
 }
 
-#exploreElabSection .fa, #shareSection .fa{
+#exploreElabSection .fa, #shareElabSection .fa{
     background: #334;
     color:#fff;
     padding: 5px;
