@@ -13,7 +13,7 @@
     <title>Bootstrap Theme</title>
 </head>
 
-<body id= "home" data-spy= "scroll" data-target= "#main-nav"> <!-- FIX ME: THIS HAS BEEN BROKEN BY SMOOTH SCROLL SCRIPT-->
+<body id= "home" data-spy= "scroll" data-target= "#main-nav">
     <!--START HERE!--> <!--FIX ME: ML-AUTO NOT WORKING ON NAVBAR!!!-->
     <nav id= "navTracker" class= "navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container">
@@ -308,7 +308,7 @@
         //Init ScrollSpy
         $('body').scrollspy({ target: "#navTracker"});
 
-        //Implement Smooth Scrolling; FIXME: THIS STOPPED SECTION BROKE SCROLLSPY!
+        //Implement Smooth Scrolling;
         $("#navTracker a").on('click', function(e){
             if (this.hash !== '') {
 
