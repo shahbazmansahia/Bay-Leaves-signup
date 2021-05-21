@@ -309,10 +309,10 @@
         $('body').scrollspy({ target: "#navTracker"});
 
         //Implement Smooth Scrolling; FIXME: THIS STOPPED SECTION BROKE SCROLLSPY!
-        $("#navTracker a").on('click'. function(event){
-            if (this.hash != "") {
+        $("#navTracker a").on('click', function(e){
+            if (this.hash !== '') {
 
-                event.preventDefault();
+                e.preventDefault();
 
                 const hash= this.hash;
 
@@ -323,6 +323,8 @@
                     });
             }
         }); 
+
+        
 
     </script>
 </body>
